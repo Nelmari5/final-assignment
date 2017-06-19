@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+        <title>Dros</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Muli" rel="stylesheet">
+    </head>
+    
+    <body>
+    <div class="container">    
+        
+        <div class="container"><!-- this wraps the site and controls width -->
+            
+            <section class="topbar"><!-- search + login -->
+                
+                <form class="search float-right">
+                    <i class="fa fa-search"></i>
+                    <input class="black" type="text" placeholder="Search">
+                    
+                </form>
+                
+                <div class="clearfix"></div>
+            </section>
+            
+            
+            <section>
+                
+            <div class="logo">
+                    <img src="images/logo-07.jpg">
+            </div>
+                <div class="menu-bar">
+                    <a href="index.html" class="menu-item">HOME</a>
+                    <a href="about.html" class="menu-item">ABOUT US</a>
+                    <a href="menu.html" class="menu-item">MENU</a>
+                    <a href="specials.html" class="menu-item">SPECIALS</a>
+                    <a href="stores.html" class="menu-item">STORES</a>
+                    <a href="#" class="menu-item">FRANCHISING</a>
+                    <a href="contact.html" class="menu-item">CONTACT US</a>
+                </div>
+            </section>
+            
+            <section class="banner"><!-- Logo and Static banner -->
+                                
+                <section class="banner"><!-- Logo and Static banner -->
+                
+                        
+                <div class="background6">
+                  <h1>CONTACT US
+                  </h1>
+                 
+                    <h2>SINCE ‘96</h2>
+                    
+                    <h3>‘cause you can’t get too much of a good thing’</h3>
+                    
+                    <a href="stores.html"><input class="view" type="submit" value="FIND A STORE" target="_parent">
+                    </a>
+                                    
+                <br>        
+                  
+                </div>
+                </section>
+            </section>
+            
+            <section class="details">
+                <h1>Call us on</h1>
+                <p>021 652 5248</p>
+                
+            <br><hr>    
+                
+                <h1>Email us</h1>
+            <p>dros.restaurant@gmail.com</p>
+                
+            </section>
+         
+        <section class="locate">
+            <div class="loacte1">
+            <h4>Find your nearest DROS restaurant</h4>
+            <div class="form">
+                <form id="Search" name="Search" action="switch.asp" method="post">
+                    <div style="margin-top:15px">
+                        <select name="dd_region" id="dd_region" onchange="setSubDiv(this[this.selectIndex].value)" class="input">
+                            <option value="0" selected="selected">Select A Province</option>
+                            <option value="1">Gauteng</option>
+                            <option value="3">Kwazulu-Natal</option>
+                            <option value="4">Limpopo</option>
+                            <option value="10">Mpumalanga</option>
+                            <option value="11">Northen Cape</option>
+                            <option value="15">Western Cape</option>
+                            <option value="16">NW Province</option>
+                            <option value="20">International Stores</option>
+                        </select>
+                    </div>
+                    
+                    <div style="margin-top:20px;">
+                        <select name="dd_store" id="dd_store" class="input">
+                            <option value="0" selected="selected">Select A Store</option>
+                            <option value="7">Atterbury</option>
+                            <option value="7">Boksburg</option>
+                            <option value="7">Centurion</option>
+                            <option value="7">Edenvale</option>
+                            <option value="7">Hatfield</option>
+                            <option value="7">Kempton park</option>
+                            <option value="7">Krugersdorp</option>
+                            <option value="7">Melville</option>
+                            <option value="7">Midrand</option>
+                            <option value="7">Montana</option>
+                            <option value="7">Northriding</option>
+                            <option value="7">Randburg</option>
+                            <option value="7">Silver lakes</option>
+                            <option value="7">Vanderbijlpark</option>
+                            <option value="7">Waterkloof</option>
+                            <option value="7">Watermeyer</option>
+                            <option value="7">Gateway</option>
+                            <option value="7">Richards bay</option>
+                            <option value="7">Newcastle</option>
+                            <option value="7">Bela-Bela</option>
+                            <option value="7">Mokopane</option>
+                            <option value="7">Ermelo</option>
+                            <option value="7">Middelburg</option>
+                            <option value="7">Nelspruit</option>
+                            <option value="7">Secunda</option>
+                            <option value="7">Upington</option>
+                            <option value="7">Canal Walk</option>
+                            <option value="7">Okavango</option>
+                            <option value="7">Somerset west</option>
+                            <option value="7">Willowbridge</option>
+                            <option value="7">Worcester</option>
+                            <option value="7">Briits</option>
+                            <option value="7">Harties</option>
+                            <option value="7">Rustenburg</option>
+                            <option value="7">Riverwalk</option>
+                            <option value="7">Molopo</option>
+                            <option value="7">Tsumeb</option>
+                            <option value="7">Windhoek</option>
+                        </select>
+                    </div>
+                    
+                    <div class="button-holder" style="margin-top: 40px">
+                        <a href="stores.html" onclick="document.getElementById('Search).submit();" class="sq-button-wide" target="_blank">
+                        View Store
+                        </a>
+                    </div>
+                </form>
+            </div>
+            
+            
+        </div>        
+        </section>
+       
+        <div class="info2">
+            <h1>KEEP UPDATED</h1>
+            
+            <h2>Join our mailing list for new specials and offers!</h2>
+        
+        <br>        
+                    <form class="sub">
+                        <input class="email-field" placeholder="email address">
+                        <input class="submit-field" type="button" value="Subscribe" target="_blank">
+                    </form>
+                    
+        </div>
+        
+        <section class="footer2">
+            <h6>Trading hours 9:00 - 17:00           7DAYS a week</h6>
+        <hr>
+        
+                <div class="menu-bar-bottom">
+                    <p>&#169;DROS 1996</p>
+                    <a href="index.html" class="menu-item">HOME</a>
+                    <a href="about.html" class="menu-item">ABOUT US</a>
+                    <a href="menu.html" class="menu-item">MENU</a>
+                    <a href="specials.html" class="menu-item">SPECIALS</a>
+                    <a href="stores.html" class="menu-item">STORES</a>
+                    <a href="#" class="menu-item">FRANCHISING</a>
+                    <a href="contact.html" class="menu-item">CONTACT US</a>
+                    <h5>WHAT'S NEW AT DROS</h5>
+                    <a target="_blank" class="facebook" href="https://www.facebook.com">
+                      <img src="images/FacebookIcon.png" alt="Facebook" style="width:30px;height:30px;border:0;">
+                    </a>
+                </div>
+        
+            
+            
+        </section>
+       
+        
+        
+        
+        </div><!-- this wraps the site and controls width -->  
+           
+    </div>
+    </body>
+</html>
